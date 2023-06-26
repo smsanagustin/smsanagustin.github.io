@@ -1,0 +1,241 @@
+body {
+    background-color: #272727;
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.dm-serif {
+    font-family: 'DM Serif Display', serif;
+}
+
+.lexend-deca {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.header {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 100px;
+    justify-content: space-between;
+}
+
+.navigation {
+    margin-left: auto;
+    margin-top: 60px;
+    margin-right: 100px;
+    height: 100%;
+    align-items: center;
+}
+
+.navigation a {
+    padding: 10px;
+    margin: 5px;
+}
+
+.nav-hover {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-hover:hover {
+    background-color: #6EEB83;
+    color: black;
+}
+
+.welcome-text {
+    font-size: 42px;
+    margin-bottom: 0px;
+}
+
+.extra-welcome-text {
+    margin-top: 0px;
+}
+
+.row {
+    display: flex;
+    flex: row;
+    flex-wrap: wrap;
+}
+
+#name-section, #img-section, .projects-section {
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me {
+    margin-top: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
+#name {
+    font-size: 50px;
+}
+
+.name-div {
+    background-color: #6EEB83;
+    color: black;
+    padding: 20px;
+}
+
+.name-div p {
+    margin: 0px;
+}
+
+.my_img {
+    width: 400px;
+    height: 400px;
+}
+
+.about-me div {
+    margin: 20px;
+}
+
+.green-bg {
+    background-color: #6EEB83;
+    color: black;
+}
+
+.section-title {
+    margin-left: 140px;
+}
+
+.line-break {
+    width: 100px;
+    margin: 0px;
+    margin-left: 140px;
+    border-top: 4px solid #6EEB83;
+}
+
+.projects-section {
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 40px;
+    justify-content: space-between; /* add space in between divs */
+    margin-bottom: 80px;
+    align-items: flex-start; /* align the divs by their top borders*/
+}
+
+.project-item {
+    flex-wrap: wrap;
+    border: 1px solid #6EEB83;
+    border-radius: 5px;
+    padding: 15px;
+    padding-bottom: 32px;
+    width: 350px;
+    margin-bottom: 40px;
+}
+
+.logo {
+    height: 25px;
+}
+
+.logo-section {
+    background-color: #6EEB83;
+    width: 63px;
+}
+
+.logo-section:hover {
+    box-shadow: 4px 4px 2px black;
+}
+
+.view {
+    color: white;
+    text-decoration: none;
+}
+
+.view:hover {
+    text-decoration: underline;
+}
+
+.page-screenshot {
+    width: 70%;
+}
+
+.back-button {
+    color: white;
+    text-decoration: none;
+}
+
+.back-button-section a {
+    padding: 12px;
+    width: 45px;
+}
+
+.back-button-section a:hover {
+    background-color: #6EEB83;
+    color: black;
+}
+
+#clearance-system-page {
+    margin-left: 120px;
+}
+
+.back-button-section {
+    margin-left: 60px;
+}
+
+.icon {
+    height: 35px;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+/* css for responsive design */
+/* 
+    the css below will apply when the screen has a width of
+    500 px or less
+ */
+@media all and (max-width: 500px) {
+    .header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    .navigation {
+        margin: 0px;    
+        margin-top: 10px;
+    }
+
+    .nav-hover {
+        background-color: #6EEB83;
+        color: black;
+    }
+
+    #name {
+        font-size: 25px;
+    }
+
+    .my_img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .line-break {
+        width: 50px;
+        margin: 0px;
+    }
+
+    .projects-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projects-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-title {
+        margin: 0px;
+    }
+}

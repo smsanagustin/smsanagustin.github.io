@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<head>
+    <title>Welcome to my website</title>
+    <link rel="stylesheet" href="assets/styles.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- custom font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header -->
+    <div class="header row">
+        <div class="header-first-div">
+            <p class="dm-serif welcome-text">Welcome</p>
+            <p class="lexend-deca extra-welcome-text">to my <span class="green-bg">Github</span> page!</p>
+        </div>
+        <div class="navigation row lexend-deca">
+            <a class="nav-hover">Blog</a>
+            <a target="_blank" href="https://linkedin.com/in/smsanagustin"><img class="icon" src="assets/images/LI-In-Bug.png"></a>
+            <a target="_blank" href="https://github.com/smsanagustin"><img class="icon" src="assets/images/github-mark-white.png"></a>
+        </div>
+    </div>
+    
+    <!-- short about me section -->
+    <div class="row about-me lexend-deca">
+        <!-- intro -->
+        <div id="name-section">
+            <div>
+                <p>Hi, I'm</p>
+            </div>
+            <div class="name-div">
+                <p id="name"><b>Sophia San Agustin</b></p>
+            </div>
+            <div class="nickname-div">
+                <p>Or just Sophie. Feel free to scroll down to see some of my projects! :)</p>
+            </div>
+        </div>
+        <!-- picture -->
+        <div id="img-section">
+            <img class="my_img" alt="my photo" src="assets/images/my_image.jpg">
+        </div>
+    </div>
+    <br><br>
+    <!-- projects section -->
+    <div class="projects-div">
+        <!-- Section title -->
+        <div class="section-title">
+            <h1>Projects</h1>
+        </div>
+        <!-- line break -->
+        <hr class="line-break">
+
+        <div class="row projects-section">
+            <!-- 1st project -->
+            <div class="project-item">
+                <h3>Splitwise Terminal App</h3>
+                <p>A terminal-based app where users can track expenses
+                    made with a friend or with a group of friends. Used
+                    Python as the main PL and MariaDB for the database.
+                </p>
+                <!-- github link -->
+                <div class="logo-section">
+                    <a target="_blank" href="https://github.com/smsanagustin/CMSC-127-Project"><img class="logo" src="assets/images/GitHub_Logo.png"></a>
+                </div>
+            </div>
+            <!-- 2nd project -->
+            <div class="project-item">
+                <h3>Clearance Application System</h3>
+                <p>A simple website where users can apply for clearance
+                    and their adviser can approve/reject the application.
+                    Built the admin and student pages using ReactJS.</p>
+                <!-- github link -->
+                <div>
+                    <a class="view" href="clearance_system.html">Click here to view screens</a>
+                </div>
+            </div>
+            <!-- 3rd project -->
+            <div class="project-item">
+                <h3>Terminal-based Python Game</h3>
+                <p>A simple Python game that shows a random
+                    pattern on the screen that disappears after 5
+                    seconds. User has to type as many patterns 
+                    as they can to earn a score.
+                </p>
+                <!-- github link -->
+                <div class="logo-section">
+                    <a target="_blank" href="https://github.com/smsanagustin/pattern-game"><img class="logo" src="assets/images/GitHub_Logo.png"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
